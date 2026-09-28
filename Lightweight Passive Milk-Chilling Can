@@ -1,0 +1,99 @@
+# Nyquist-2.0
+
+### Low-Cost, Lightweight Passive Milk-Chilling Can for Small-Scale Dairy Farmers
+
+> **The last-mile cold-chain bridge for small dairy farmers.**
+
+[![SIH 2026](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-0A66C2)](#)
+[![Problem Statement](https://img.shields.io/badge/PS-SIH26110-12355B)](#)
+[![Capacity](https://img.shields.io/badge/Capacity-30%20L-00A896)](#)
+[![Cooling](https://img.shields.io/badge/Cooling-Passive-4B5563)](#)
+[![Status](https://img.shields.io/badge/Status-Prototype%20Development-F59E0B)](#)
+
+---
+
+## 1. Project Overview
+
+**VERTEX CHILL-CAN X30** is a proposed **30 L low-cost, lightweight,
+passive milk-chilling and cold-chain transport system** designed for
+small-scale and marginal dairy farmers.
+
+The system is designed around a **modular thermal-battery architecture**
+that combines:
+
+- SS304 food-contact liner
+- Aluminium thermal spreader
+- Removable thermal-battery cassettes
+- 35–40 mm PUF insulation
+- HDPE protective outer shell
+- Isolated mechanical load path
+- Hygienic milk-access system
+- Reusable thermal-storage modules
+
+The primary objective is to maintain milk within the intended cold-chain
+temperature range during transportation from the farm to a rural milk
+collection centre **without onboard continuous electrical refrigeration**.
+
+> **Important:** The temperature and duration values stated in this
+> repository are engineering targets until experimentally validated.
+
+---
+
+# 2. Problem Statement
+
+## SIH26110
+
+### Development of a Low-Cost Light-weight Milk Chilling Can for Small-Scale Dairy Farmers
+
+Small-scale dairy farmers often transport freshly collected milk from the
+farm to a collection centre before it reaches a centralized chilling
+facility.
+
+This creates a last-mile cold-chain challenge:
+
+- Milk temperature can rise during collection and transportation.
+- Conventional active refrigeration systems increase cost, complexity and
+  power requirements.
+- Basic insulated containers primarily slow heat ingress but do not provide
+  configurable thermal storage.
+- Farmers require equipment that is affordable, lightweight, reusable,
+  hygienic and practical for rural transportation.
+
+The project therefore explores a **passive thermal-storage-based milk
+transport system** that can provide controlled thermal protection during
+the farm-to-collection-centre journey.
+
+---
+
+# 3. Proposed Solution
+
+VERTEX CHILL-CAN X30 uses a **thermal battery placed inside the insulation
+envelope** rather than treating the cooling medium as an external add-on.
+
+### Core architecture
+
+```text
+                     AMBIENT
+                       HEAT
+                        ↓
+              ┌───────────────────┐
+              │   HDPE OUTER      │
+              │      SHELL        │
+              ├───────────────────┤
+              │   PUF INSULATION  │
+              │    35–40 mm       │
+              ├───────────────────┤
+              │ THERMAL BATTERY   │
+              │    CASSETTES      │
+              ├───────────────────┤
+              │ ALUMINIUM         │
+              │ THERMAL SPREADER  │
+              ├───────────────────┤
+              │ SS304 FOOD        │
+              │ CONTACT LINER     │
+              ├───────────────────┤
+              │                   │
+              │      MILK         │
+              │      ~30 L        │
+              │                   │
+              └───────────────────┘
